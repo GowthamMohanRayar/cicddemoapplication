@@ -13,5 +13,5 @@ phases:
   - echo "Entere build phase"
 #  - mv target/deploy ./
 artifacts:
- paths:
+ files:
   - target/demo-0.0.1-SNAPSHOT.war
