@@ -12,8 +12,10 @@ public class Controller {
 	}
 	
 	@GetMapping("/sayhello")
-	public String saytHello() {
+	public String sayHello() {
 		return "hello";
 	}
+	
+	
 
 }
