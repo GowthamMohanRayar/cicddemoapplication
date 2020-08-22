@@ -10,5 +10,10 @@ public class Controller {
 	public String printHello() {
 		return "hello";
 	}
+	
+	@GetMapping("/sayhello")
+	public String saytHello() {
+		return "hello";
+	}
 
 }
