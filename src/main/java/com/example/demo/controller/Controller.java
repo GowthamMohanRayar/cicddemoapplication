@@ -11,7 +11,7 @@ public class Controller {
 		return "hello";
 	}
 	
-	@GetMapping("/sayhello")
+	@GetMapping("/say")
 	public String sayHello() {
 		return "hello";
 	}
